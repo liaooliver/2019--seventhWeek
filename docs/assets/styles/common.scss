@@ -1,0 +1,45 @@
+@import './var.scss';
+
+// space
+// margin
+.mr-20{
+    margin-right: 20px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+// padding
+
+
+// 
+
+.btn{
+    padding: 16px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background: transparent;
+    color: $text-main;
+    border: 1px solid $main;
+    &:focus{
+        outline: none;
+        background: #9ba4df;
+    }
+    &:active{
+        background: #9ba4df;
+    }
+}
+
+.input{
+    background: transparent;
+    border: 1px solid $main;
+    height: 34px;
+    width: 220px;
+    color: $text-main;
+    padding-left: 8px;
+}
