@@ -1,0 +1,7 @@
+<div class="home">
+    <app-side-bar class="home__bar"></app-side-bar>
+    <div class="home__content">
+        <app-user *ngIf="content" (nextPage)="togglePage($event)"></app-user>
+        <app-rooms class="home__room" *ngIf="!content"></app-rooms>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+@import '../../../assets/styles/var.scss';
+
+.user{
+    width: 600px;
+    height: 400px;
+    padding-top: 35px;
+    padding-left: 48px;
+    background: $second;
+
+    &__inputSection{
+        font-size: $font-category;
+        color: $text-main;
+
+        &--name{
+            border: none;
+            border-bottom: 1px solid;
+            border-color: #ffBC2E;
+        }
+
+    }
+
+    &__nextBtn{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20%;
+        > button{
+            background-color: $main;
+            color: $text-main;
+            width: 150px;
+            height: 40px;
+            font-size: $font-main;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,57 @@
+@import '../../../assets/styles/var.scss';
+
+.rooms{
+    padding: 20px 30px;
+    color: $text-main;
+
+    &__title{
+        display: flex;
+        margin-bottom: 24px;
+        &--name{
+            font-size: $font-subTitle;
+        }
+
+        &--new{
+            margin-left: 16px;
+            vertical-align: bottom;
+            cursor: pointer;
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+
+    &__group{
+        margin-bottom: 24px;
+        &--name{
+            display: inline-block;
+            margin-bottom:16px;
+        }
+    }
+
+    &__items{
+        display: flex;
+        overflow: auto;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        &--item{
+            min-width: 160px;
+            max-width: 160px;
+            height: 160px;
+            margin-right: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: $main;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        &--people{
+            position: absolute;
+            bottom: 12px;
+            right: 12px;
+        }
+    }
+}
